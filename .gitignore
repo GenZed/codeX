@@ -1,0 +1,11 @@
+.DS_Store
+.vscode/
+# original 2 GB film, too big for GitHub (WESTtx_web.mp4 is the web copy)
+WESTtx.mp4
+# TfL font, not redistributable
+Johnston100 W03 Medium.ttf
+# unused local libraries and leftover class example texts
+p5.js
+p5.sound.min.js
+taleOfTwoCities.txt
+taleOfTwoCitiesShort.txt
