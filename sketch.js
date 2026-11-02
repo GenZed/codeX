@@ -17,10 +17,13 @@ function preload() {
 function setup() {
   createCanvas(500, 500);
 
-  // use the TFL font if a local copy is present. It's not in the repo because
-  //it can't be redistributed. Loaded here rather than in preload() because a
-  //missing font in preload() stops the sketch from ever starting
-  loadFont('Johnston100 W03 Medium.ttf', (f) => myFont = f, () => {});
+  // use the TFL font when running locally. It's not in the repo because it
+  //can't be redistributed, so it's never requested on the live site. Loaded here
+  //rather than in preload() because a missing font in preload() stops the
+  //sketch from ever starting
+  if (['localhost', '127.0.0.1'].includes(location.hostname)) {
+    loadFont('Johnston100 W03 Medium.ttf', (f) => myFont = f, () => {});
+  }
 
   generateMarkovModel();
 }

@@ -22,7 +22,7 @@ p5.js 1.7.0 loads from a CDN. `WESTtx_web.mp4` is a 480p web copy of the origina
 
 ## Font
 
-The original piece uses TfL's Johnston typeface, which can't be redistributed, so this repo ships [Cabin](https://github.com/impallari/Cabin) (SIL Open Font License, see `Cabin-OFL.txt`) instead. Cabin is a humanist sans inspired by Edward Johnston's lettering. If `Johnston100 W03 Medium.ttf` is in the folder, the sketch uses it.
+The original piece uses TfL's Johnston typeface, which can't be redistributed, so this repo ships [Cabin](https://github.com/impallari/Cabin) (SIL Open Font License, see `Cabin-OFL.txt`) instead. Cabin is a humanist sans inspired by Edward Johnston's lettering. If `Johnston100 W03 Medium.ttf` is in the folder, the sketch uses it when run locally.
 
 ## Credits
 
